@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default class Services extends React.Component {
+export default class PLanBudget extends React.Component {
   render() {
     return (
      
       <View style={styles.inner} >
-          <Text> Hello form Services</Text>
+          <Text> Hello form Plan Budget</Text>
       </View>
      
     );

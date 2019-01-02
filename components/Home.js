@@ -7,26 +7,26 @@ export default class Home extends React.Component {
      
       <View style={styles.container} >
           <Text> Hello form Home</Text>
-          <Button title='Services'
+          <Button title='Total Budget'
                   onPress={
                       () => this.props.navigation.navigate('Services')
                   }
           />
-          <Button title='About'
+          <Button title='Plan Budget'
                   onPress={
                       () => this.props.navigation.navigate('About')
                   }
           />
-          <Button title='SignIn'
+          {/* <Button title='SignIn'
                   onPress={
                       () => this.props.navigation.navigate('SignIn')
                   }
-          />
-           <Button title='SignUp'
+          /> */}
+           {/* <Button title='SignUp'
                   onPress={
                       () => this.props.navigation.navigate('SignUp')
                   }
-          />
+          /> */}
       </View>
      
     );
