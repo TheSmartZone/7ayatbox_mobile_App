@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
+
 export default class Home extends React.Component {
   render(props) {
     return (
@@ -9,12 +10,12 @@ export default class Home extends React.Component {
           <Text> Hello form Home</Text>
           <Button title='Total Budget'
                   onPress={
-                      () => this.props.navigation.navigate('Services')
+                      () => this.props.navigation.navigate('TotalBudget')
                   }
           />
           <Button title='Plan Budget'
                   onPress={
-                      () => this.props.navigation.navigate('About')
+                      () => this.props.navigation.navigate('PlanBudget')
                   }
           />
           {/* <Button title='SignIn'

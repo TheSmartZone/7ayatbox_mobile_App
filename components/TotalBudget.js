@@ -1,12 +1,24 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+// import PLanBudget from './components/PLanBudget.js';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
+
+
+
 
 export default class TotalBudget extends React.Component {
   render() {
     return (
      
       <View style={styles.inner} >
-          <Text> Hello form Total Budget</Text>
+          <Text> Total Budget</Text>
+          <TextInput placeholder="enter your budget here"/>
+          <Button title='Submit'
+                  onPress={
+                      () => this.props.navigation.navigate('PLanBudget')
+                  }
+          />
+   
       </View>
      
     );

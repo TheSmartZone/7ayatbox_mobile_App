@@ -12,7 +12,7 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 const RootStack = createStackNavigator( {
   Home: Home,
   TotalBudget: TotalBudget,
-  PLanBudget: PLanBudget,
+  PLanBudgett: PLanBudget,
   // SignIn: SignIn,
   // SignUp: SignUp,
 } )
